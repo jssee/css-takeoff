@@ -22,7 +22,8 @@ css-takeoff/
 |   |-- _mo.styl         # https://github.com/mojotech/mo in stylus
 |   |-- _variables.styl  # system font stack, breakpoints and blocks
 |   
-|-- vendors/   
+|-- vendors/
+|   ...
 |
 `-- main.styl            # Primary Stylus file
 
