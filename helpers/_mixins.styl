@@ -8,13 +8,21 @@ $clearfix
     clear: both
 
 // Convert px font-size to REM
-remify($size)
-  $remSize = $size / 16px
-  $remSize * 1rem
+font-size(value)
+  font-size: value
 
-font-size($size)
-  font-size: $size
-  font-size: remify($size)
+  if (value is inherit)
+    return
+  else
+    font-size: remify(value)
+
+remify(value)
+  u = unit(value)
+
+  if (u is 'px')
+    return unit(value/16, 'rem')
+  else
+    return unit(value, u)
 
 /// Background gradient helper
 background-gradient($start-color, $end-color, $orientation)

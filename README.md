@@ -11,16 +11,16 @@ css-takeoff/
 |-- components/
 |   ...
 |
+|-- helpers/               
+|   |-- _mixins.styl     # commonly used and helpful mixins
+|   |-- _mo.styl         # https://github.com/mojotech/mo in stylus
+|   |-- _variables.styl  # system font stack, breakpoints and blocks
+|
 |-- layout/
 |   ...
 |
 |-- pages/
 |   ...
-|   
-|-- helpers/               
-|   |-- _mixins.styl     # commonly used and helpful mixins
-|   |-- _mo.styl         # https://github.com/mojotech/mo in stylus
-|   |-- _variables.styl  # system font stack, breakpoints and blocks
 |   
 |-- vendors/
 |   ...
