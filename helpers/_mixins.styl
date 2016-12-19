@@ -36,3 +36,19 @@ position($type, $top = null, $right = null, $bottom = null, $left = null)
   right: $right
   bottom: $bottom
   left: $left
+
+// Shorthandizes centering
+center($axis)
+	if $axis == both
+		position: absolute
+		left: 50%
+		top: 50%
+		transform: translate(-50%, -50%)
+	else if $axis == horizontal
+		position: absolute
+		left: 50%
+		transform: translateX(-50%)
+	else if $axis == vertical
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
