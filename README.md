@@ -6,9 +6,10 @@ Basic directory structure and base files to get a project started. Based of my n
 css-takeoff/
 |
 |-- global/
-|   |-- _normalize.styl  # https://necolas.github.io/normalize.css/ in stylus
+|   |-- _normalize.styl  # https://necolas.github.io/normalize.css
 |   |-- _variables.styl  # system font stack, breakpoints and blocks
 |   |-- _mixins.styl     # commonly used and helpful mixins
+|   |-- _typography.styl # https://github.com/devinhunt/typebase.css
 |   `-- _base.styl       # box-sizing
 |
 |-- modules/
