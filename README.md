@@ -22,12 +22,12 @@ css-takeoff/
 |
 `-- stylus      # stylus structure
     |-- global/
- 		|				 |
- 		|				 |--_reset.styl       
- 		|				 |--_base.styl        
- 		|				 |--_mixins.styl      
- 		|				 |--_variables.styl   
- 		|				 `--_typography.styl 
+    |				 |
+    |				 |--_reset.styl       
+    |				 |--_base.styl        
+    |				 |--_mixins.styl      
+    |				 |--_variables.styl   
+    |				 `--_typography.styl 
     |
     |-- page/
     |-- components/
