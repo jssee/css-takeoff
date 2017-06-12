@@ -1,0 +1,11 @@
+@import "global/_reset.css";
+@import "global/_settings.css";
+@import "global/_typography.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
